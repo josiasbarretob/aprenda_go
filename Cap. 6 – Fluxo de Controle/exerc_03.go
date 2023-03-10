@@ -1,11 +1,11 @@
 package main
 
-import(
-	"fmt"
-)
+import "fmt"
 
 func main(){
-	for i := 1 ; i <= 10000 ; i++{
+	i := 1994
+	for i <= 2023{
 		fmt.Println(i)
+		i++
 	}
 }
